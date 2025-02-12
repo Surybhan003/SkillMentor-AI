@@ -62,7 +62,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 # here I have shown all the button of login, contact and signup
 with col1:
-    st.image(r'C:\Users\mourya\Desktop\streamlit_fldr\logo2.png')
+    st.image("logo2.png")
 with col2:
     login_button = st.button("Login", key="login")
     
@@ -84,7 +84,7 @@ if token=="Home":
     with c1:
       for i in range(3):
           st.write("")
-      st.image(r'C:\Users\mourya\Desktop\streamlit_fldr\canva_img1.jpg')
+      st.image("canva_img1.jpg")
       st.markdown("""
                   <h3 style="color: grey; opacity: 0.6;">Join with the world's largest platform</h3>
                   """, 
@@ -104,7 +104,7 @@ if token=="Home":
     with c3:
         for i in range(4):
           st.write("")
-        st.image(r'C:\Users\mourya\Desktop\streamlit_fldr\canva_img2.jpg')
+        st.image("canva_img2.jpg")
         st.markdown("""
                     <h3 style="color: grey; opacity: 0.6;">Join with the world's largest platform</h3>
                     """, 
@@ -114,7 +114,7 @@ if token=="Home":
     with c1:
       for i in range(4):
           st.write("")
-      st.image(r'C:\Users\mourya\Desktop\streamlit_fldr\salary_img.jpeg')
+      st.image("salary_img.jpeg")
       st.markdown("""
                   <h3 style="color: grey; opacity: 0.6;">Join with the world's largest platform</h3>
                   """, 
@@ -138,7 +138,7 @@ elif token=="about":
         col1, col2 = st.columns([1, 1])
         with col1:
             st.image(
-                r'C:\Users\mourya\Desktop\streamlit_fldr\p1.jpg',
+                "p1.jpg",
                 caption="Our company",
                 use_column_width=True
             )
@@ -154,7 +154,7 @@ elif token=="about":
         # col1,col2=st.columns([1,1])
         # with col2:
         #     st.image(
-        #         r'C:\Users\mourya\Desktop\streamlit_fldr\p2.jpg',
+        #         "p2.jpg",
         #         caption="The head quater of BrightPlayer",
         #         use_column_width=True
         #     )
@@ -169,7 +169,7 @@ elif token=="about":
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image(
-                r'C:\Users\mourya\Desktop\streamlit_fldr\p3.jpg',
+                "p3.jpg",
                 caption="Owner of the company",
                 use_column_width=True
             )
@@ -179,7 +179,7 @@ elif token=="about":
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image(
-                r'C:\Users\mourya\Desktop\streamlit_fldr\p2.jpg',
+                "p2.jpg",
                 caption="team of the company",
                 use_column_width=True
             )
